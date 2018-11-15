@@ -3,7 +3,7 @@ background-color:rgb(166, 210, 228);
 color:black; 
 font-size: 100px;
 font-weight: bold;
-Font-family: Helvetica;
+Font-family: Arial;
 text-align: center;
 }
 
@@ -11,7 +11,7 @@ a:hover{
     background-color: rgb(98, 151, 194);
     font-weight: bold;
     color: black; 
-    Font-family: helvetica;
+    Font-family: Arial;
 }
 
 mark:hover{
@@ -38,7 +38,7 @@ h2{
 }
 
 body{
-    font-family: Helvetica;
+    font-family: Arial;
     font-style: bold;
     background-color: rgb(247, 230, 134);
     font-size: 24px;
