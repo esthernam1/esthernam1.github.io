@@ -1,29 +1,47 @@
-mark
-{
+mark{
 background-color:rgb(166, 210, 228);
 color:black; 
 font-size: 80px;
 font-weight: bold;
-Font-family: helvetica;
+Font-family: Helvetica;
 }
 
 
-a:hover
-{
+a:hover{
     background-color: rgb(98, 151, 194);
     font-weight: bold;
     color: black; 
     Font-family: helvetica;
 }
 
-a:link {color:#ff9651}   
-a:visited {color:#ff9651} 
-a:hover {color:#ffd800}   
-a:active {color:#ffd800} 
+mark:hover{
+    background-color: rgb(98, 151, 194);
+}
 
-mark:hover
-{
-    background-color: #ff9651;
+mark.other:hover{
+    background-color: rgb(166, 210, 228);
+}
+
+h1{
+    font-weight: bold;
+    color: black;
+    font-size: 72px;
+    margin-left:45px;
+
+}
+
+h2{
+    margin-left:45px;
+    color: black;
+}
+
+body{
+    font-family: Helvetica;
+    font-style: bold;
+    color: #686767;
+    font-size: 24px;
+    padding-bottom: 25px;
+
 }
 
 mark.underline
@@ -32,78 +50,13 @@ mark.underline
     background-color: white;
 }
 
-mark.other:hover
-{
-    background-color: #ffd800;
-}
-
-img{
-    display: none
- }
-h1
-{
-    font-weight: bold;
-    color: black;
-    font-size: 72px;
-    margin-left:45px;
-
-}
-
-h2
-{
-    margin-left:45px;
-    color: black;
-}
-
-h3
-{
-    margin-left:45px;
-    margin-right:65px;
-    color: black;
-    border-bottom: solid #ffd800; 
-    
-}
-
-body
-{
-    font-family: 'Open Sans', sans-serif;
-    font-style: bold;
-    color: #686767;
-    font-size: 24px;
-    padding-bottom: 25px;
-
-}
-
-a.about
-{
-    
+p.point {
 color: black;
-font-size: 24px;
-text-align: left;
-margin-right:115px;
-
-}
-
-a.interruption
-{
-font-size: 24px;
-color: black;
-font-size: 20px;
-text-align: left;
-margin-left: 380px;
-margin-right:115px;
-
-
-}
-
-p.point 
-{
-color: black;
-font-size: 24px;
+font-size: 30px;
 text-align: left;
 margin-left: 320px;
 margin-right:150px;
-padding-bottom: 5px;
+padding-bottom: 10px;
 }
 
 
