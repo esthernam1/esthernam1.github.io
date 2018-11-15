@@ -1,4 +1,4 @@
-mark.other{
+h1.other{
 background-color:rgb(166, 210, 228);
 color:black; 
 font-size: 100px;
@@ -14,33 +14,25 @@ a:hover{
     Font-family: Arial;
 }
 
-mark:hover{
+h1:hover{
     background-color: rgb(98, 151, 194);
 }
 
-mark.other:hover{
+h1.other:hover{
     background-color: rgb(166, 210, 228);
-}
-
-h1{
-    font-weight: bold;
-    color: black;
-    font-size: 72px;
-    margin-left:45px;
-
 }
 
 h2{
     font-weight: bold;
+    color: black;
     font-size: 72px;
     margin-left:45px;
-    color: black;
+
 }
 
 body{
     font-family: Arial;
     font-style: bold;
-    background-color: rgb(247, 230, 134);
     font-size: 24px;
     padding-bottom: 25px;
 
@@ -48,7 +40,6 @@ body{
 
 mark.underline
 {
-    
     background-color: white;
 }
 
