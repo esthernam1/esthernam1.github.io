@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
 mark
 {
-    background-color: #ffd800;
+background-color:rgb(166, 210, 228);
+color:black; 
+font-size: 80px;
+font-weight: bold;
+Font-family: helvetica;
 }
 
 
 a:hover
 {
-    background-color: #ff9651;
+    background-color: rgb(98, 151, 194);
     font-weight: bold;
     color: black; 
+    Font-family: helvetica;
 }
 
 a:link {color:#ff9651}   
