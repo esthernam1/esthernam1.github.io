@@ -114,107 +114,6 @@ li a:hover {
    position: absolute;
 }
 
-
-.image2 {
-    width:75%;
-    padding-right: 10px;
-    padding-top: 70px;
-    float: right;
-    position: relative;
-  
-}
-
-
-#state2{
-    font-family: Filson-pro, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 530px;
-    padding-top: 910px;
-    line-height: 0px;
-    color: #ABE9DD;
-    position: absolute;
-}
-#northcarolina {
-    width: 252px;
-    font-family: athelas;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 530px;
-    padding-top: 940px;
-    color: #ABE9DD;
-    position: absolute;
-}
-
-.image3 {
-    width:50%;
-    padding-left: 70px;
-    padding-top: 130px;
-    float: left;
-    position: relative;
-}
-
-#state3{
-    font-family: Filson-pro, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 1200px;
-    line-height: 0px;
-    color: #ABE9DD;
-    position: absolute;
-}
-#virginia {
-    width: 252px;
-    font-family: athelas;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 1235px;
-    color: #ABE9DD;
-    position: absolute;
-}
-
-.image4 {
-    width:30%;
-    padding-right: 400px;
-    padding-top: 10px;
-    float: right;
-    position: relative;
-}
-
-#state4{
-    font-family: Filson-pro, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 1050px;
-    padding-top: 1660px;
-    line-height: 0px;
-    color: #ABE9DD;
-    position: absolute;
-}
-#washington {
-    width: 252px;
-    font-family: athelas;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 1050px;
-    color: #ABE9DD;
-    position: absolute;
-    padding-top: 1695px;
-}
-
-.image5 {
-    width:48%;
-    padding-left: 20px;
-    padding-top: 50px;
-    float: left;
-    position: relative;
-}
-
 #state5{
     font-family: Filson-pro, sans-serif;
     font-size: 30px;
@@ -262,7 +161,7 @@ li a:hover {
 http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 */
 
-.container {
+.favorites container {
     width: 25em;
     height: 12em;
     margin: 1em auto;
@@ -325,7 +224,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 #email {
     font-style: bold;
     font-family: Filson-pro, sans-serif;
-    font-size: 166px;
+    font-size: 100px;
     text-align: center;
     padding-top: 175px;
     color: #ABE9DD;
