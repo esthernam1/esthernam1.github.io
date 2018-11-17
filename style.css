@@ -129,7 +129,6 @@ li a:hover {
     position: absolute;
 }
 
-
 /*====================================================================*/
 /*LIKES PAGE*/
 
@@ -170,7 +169,8 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     top: 0em;
     position: relative;
     box-sizing: border-box;
-    animation: marquee 5s linear infinite;
+    animation: marquee linear infinite;
+    animation-duration: 4s;
     overflow: hidden;
 }
 
@@ -181,7 +181,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 
 @keyframes marquee {
     0%   { top:   0em }
-    100% { top: -24em }
+    100% { top: -10em }
 }
 
 
