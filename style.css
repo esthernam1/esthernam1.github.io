@@ -1,5 +1,5 @@
 Body {
-    background: #FDF18A;
+    background: #FFB5D8;
 }
 
 /*animation for later
@@ -19,7 +19,7 @@ Body {
 */
 /*====================================================================*/
 .parallax {
-    background: #FFB5D8;
+    background: #FDF18A;
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
