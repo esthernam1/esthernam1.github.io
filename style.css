@@ -83,14 +83,6 @@ li a:hover {
     color: #ABE9DD;
 }
 
-.image1 {
-    width:25%;
-    padding-left: 90px;
-    padding-top: 150px;
-    float: left;
-    position: relative;
-}
-
 #state1{
     font-family: Filson-pro, sans-serif;
     font-weight: bold;
