@@ -169,8 +169,8 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     top: 0em;
     position: relative;
     box-sizing: border-box;
-    animation: marquee linear infinite;
-    animation-duration: 4s;
+    animation: marquee 4s linear infinite;
+    /* animation-duration: 4s; */
     overflow: hidden;
 }
 
