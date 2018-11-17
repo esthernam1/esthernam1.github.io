@@ -44,7 +44,22 @@
                         Drawing <br/>
                     </p>
                 </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <script>
+                window.onscroll = function() {scrollFunction()};
 
+                function scrollFunction() {
+                    if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+                </script>
 
 <p><a href="https://docs.google.com/document/d/1JfsKQrgt-4yq8De5g6qQE-grzDffSX_LB3ns6etmSmw/edit?usp=sharing">Inspiration</a></p>
 
