@@ -167,7 +167,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 }
 
 .marquee {
-    top: 30em;
+    top: -40em;
     position: relative;
     box-sizing: border-box;
     animation: marquee 4s linear infinite;
