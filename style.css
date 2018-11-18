@@ -181,7 +181,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 
 @keyframes marquee {
     0%   { top:   0em }
-    100% { top: -24em }
+    100% { top: -40em }
 }
 
 
