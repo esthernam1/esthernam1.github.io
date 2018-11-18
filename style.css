@@ -170,18 +170,18 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     top: 0em;
     position: relative;
     box-sizing: border-box;
-    animation: marquee 4s linear infinite;
+    animation: marquee 4s linear 2s infinite;
     overflow: hidden;
 }
 
 .marquee:hover {
-    animation-play-state: initial;
+    animation-play-state: running;
 }
 
 
 @keyframes marquee {
-    0%   { top:   0em }
-    100% { top: -10em }
+    0%   { top:  80em }
+    100% { top: 30em }
 }
 
 
