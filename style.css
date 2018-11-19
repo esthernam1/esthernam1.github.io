@@ -177,7 +177,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     top: 0em;
     position: relative;
     box-sizing: border-box;
-    animation: marquee 4s linear 2s infinite;
+    animation: marquee 5s linear infinite;
     overflow: hidden;
 }
 
@@ -187,8 +187,8 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 
 
 @keyframes marquee {
-    0%   { top:  1000em }
-    100% { top: 800em }
+    0%   { top:  0em }
+    100% { top: -24em }
 }
 
 
