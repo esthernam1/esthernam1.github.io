@@ -114,36 +114,6 @@ li a:hover {
    position: absolute;
 }
 
-#state3{
-    font-family: Filson-pro, sans-serif;
-    font-size: 70px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 1200px;
-    line-height: 0px;
-    color: #ABE9DD;
-    position: absolute;
-}
-#virginia {
-    width: 252px;
-    font-family: athelas;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 40px;
-    padding-top: 1235px;
-    color: #ABE9DD;
-    position: absolute;
-}
-.image5 {
-    width:48%;
-    padding-left: 20px;
-    padding-top: 50px;
-    float: left;
-    position: relative;
-}
-
-
 #state5{
     font-family: Filson-pro, sans-serif;
     font-size: 70px;
@@ -192,7 +162,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 
 .favorites container {
     width: 350em;
-    height: 200em;
+    height: 100em;
     margin: 1em auto;
     overflow: hidden;
     background: #ABE9DD;
@@ -207,7 +177,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     top: 0em;
     position: relative;
     box-sizing: border-box;
-    animation: marquee 4s linear infinite;
+    animation: marquee 4s linear 2s infinite;
     overflow: hidden;
 }
 
@@ -218,7 +188,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 
 @keyframes marquee {
     0%   { top:  1000em }
-    100% { top: 600em }
+    100% { top: 800em }
 }
 
 
