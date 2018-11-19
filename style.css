@@ -20,7 +20,7 @@ Body {
 /*====================================================================*/
 
 .parallax {
-    background: #ffb48c;
+    background: #ff90cc;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -134,22 +134,14 @@ li a:hover {
     position: absolute;
 }
 #virginia {
-    width: 300px;
+    width: 252px;
     font-family: athelas;
-    font-size: 55px;
+    font-size: 30px;
     text-align: left;
     padding-left: 40px;
     padding-top: 1235px;
     color: #ABE9DD;
     position: absolute;
-}
-
-.image5 {
-    width:48%;
-    padding-left: 20px;
-    padding-top: 50px;
-    float: left;
-    position: relative;
 }
 
 #state5{
@@ -170,7 +162,7 @@ li a:hover {
     font-size: 55px;
     text-align: left;
     padding-left: 610px;
-    padding-top: 2020px;
+    padding-top: 2045px;
     color: #ABE9DD;
     position: absolute;
 }
