@@ -229,6 +229,15 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     color: #ABE9DD;
 }
 
+#inspiration {
+    font-style: bold;
+    font-family: Filson-pro, sans-serif;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 175px;
+    color: #ABE9DD;
+}
+
 /*====================================================================*/
 /* WORKS PAGE */
 
