@@ -144,6 +144,14 @@ li a:hover {
     position: absolute;
 }
 
+.image5 {
+    width:48%;
+    padding-left: 20px;
+    padding-top: 50px;
+    float: left;
+    position: relative;
+}
+
 #state5{
     font-family: Filson-pro, sans-serif;
     font-size: 70px;
