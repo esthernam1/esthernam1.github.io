@@ -73,15 +73,22 @@ li a:hover {
 }
 
 /*====================================================================*/
-/*LOCATIONS PAGE*/
+/*progress PAGE*/
 
-#locations {
+#progress {
     font-style: bold;
     font-family: Filson-pro, sans-serif;
     font-size: 166px;
     text-align: center;
     padding-top: 175px;
     color: #ABE9DD;
+}
+.image1 {
+    width:25%;
+    padding-left: 90px;
+    padding-top: 150px;
+    float: left;
+    position: relative;
 }
 
 #state1{
