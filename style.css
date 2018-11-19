@@ -161,8 +161,8 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 */
 
 .favorites container {
-    width: 200em;
-    height: 100em;
+    width: 350em;
+    height: 200em;
     margin: 1em auto;
     overflow: hidden;
     background: #ABE9DD;
