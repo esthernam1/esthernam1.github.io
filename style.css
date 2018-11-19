@@ -20,7 +20,7 @@ Body {
 /*====================================================================*/
 
 .parallax {
-    background: #ee82ee;
+    background: #ff90cc;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -94,7 +94,7 @@ li a:hover {
 #state1{
     font-family: Filson-pro, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 70px;
     text-align: left;
     padding-left: 252px;
     padding-top: 175px;
@@ -106,7 +106,7 @@ li a:hover {
 #california {
     width: 300px;
     font-family: athelas;
-    font-size: 20px;
+    font-size: 55px;
     text-align: left;
     padding-top: 205px;
     padding-left: 252px;
@@ -116,7 +116,7 @@ li a:hover {
 
 #state5{
     font-family: Filson-pro, sans-serif;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
     text-align: left;
     padding-left: 610px;
@@ -129,7 +129,7 @@ li a:hover {
 #newyork {
     width: 252px;
     font-family: athelas;
-    font-size: 20px;
+    font-size: 55px;
     text-align: left;
     padding-left: 610px;
     padding-top: 2045px;
@@ -148,7 +148,7 @@ li a:hover {
     margin-left: 0px;
     margin-top: 2700px;
     padding-top: 175px;
-    color: #C0ADE7; 
+    color: rgb(213, 243, 44); 
     width: 100%;
     height: 1000px;
     position: absolute;
