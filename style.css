@@ -161,8 +161,8 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 */
 
 .favorites container {
-    width: 350em;
-    height: 100em;
+    width: 25em;
+    height: 12em;
     margin: 1em auto;
     overflow: hidden;
     background: #ABE9DD;
@@ -232,7 +232,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
 #inspiration {
     font-style: bold;
     font-family: Filson-pro, sans-serif;
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
     padding-top: 175px;
     color: #ABE9DD;
