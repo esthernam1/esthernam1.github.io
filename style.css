@@ -72,6 +72,15 @@ li a:hover {
     color: #FDF18A;
 }
 
+#subtitle{
+    font-style: bold;
+    font-family: Filson-pro, sans-serif;
+    font-size: 166px;
+    text-align: center;
+    padding-top: 190px;
+    color: #FDF18A;
+}
+
 /*====================================================================*/
 /*progress PAGE*/
 
