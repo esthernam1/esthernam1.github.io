@@ -111,7 +111,7 @@ li a:hover {
 .image2 {
     width:10%;
     padding-left: 90px;
-    padding-top: 520px;
+    padding-top: 440px;
     float: left;
     position: relative;
 }
@@ -151,7 +151,7 @@ li a:hover {
 .image4 {
     width:10%;
     padding-left: 100px;
-    padding-top: 220px;
+    padding-top: 120px;
     float: left;
     position: relative;
 }
@@ -191,7 +191,7 @@ li a:hover {
 .image6 {
     width:10%;
     padding-left: 90px;
-    padding-top: 200px;
+    padding-top: 100px;
     float: left;
     position: relative;
 }
@@ -295,7 +295,7 @@ http://jsfiddle.net/jonathansampson/h7SYp/SCROLLING
     font-weight: bold;
     font-size: 166px;
     text-align: center;
-    background: #ABE9DD;
+    /* background: #ABE9DD; */
     margin-top: 5000px;
     padding: 2000px;
 }
