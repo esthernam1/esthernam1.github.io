@@ -48,14 +48,14 @@ function addMe(){
 
 
 
-// function addMeToo(){
-// 	n1=document.getElementById("num1").value;
-// 	n2=document.getElementById("num2").value;
-// 	var sum = 
-// 		NumbeR(n1) + 
-// 		Number(n2);
-// 	console.log(sum);
-// }
+function addMeToo(){
+	n1=document.getElementById("num1").value;
+	n2=document.getElementById("num2").value;
+	var sum = 
+		NumbeR(n1) + 
+		Number(n2);
+	console.log(sum);
+}
 
 
 function subtractMe(){
