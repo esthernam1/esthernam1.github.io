@@ -1,0 +1,25 @@
+body{
+font-family: 'Tangerine', IBM Plex Mono;
+    font-size: 40px;
+    text-align: center;
+       background-color: ##ffcc66;
+
+}
+
+.button {
+   background-color: #4CAF50;
+   font-family: 'Tangerine', IBM Plex Mono;
+  border: none;
+  color: white;
+   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+addMe{
+
+
+}
