@@ -2,7 +2,7 @@
 //mouse line follow thing
 let x = [],
   y = [],
-  segNum = 30;
+  segNum = 30
   segLength = 20;
 
 for (let i = 0; i < segNum; i++) {
