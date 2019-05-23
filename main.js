@@ -1,64 +1,68 @@
-let system;
+
+//mouse line follow thing
+let x = [],
+  y = [],
+  segNum = 30;
+  segLength = 20;
+
+for (let i = 0; i < segNum; i++) {
+  x[i] = 0;
+  y[i] = 0;
+}
 
 function setup() {
-  createCanvas(720, 400);
-  system = new ParticleSystem(createVector(width / 2, 50));
+  createCanvas(2000, 2000);
+  strokeWeight(10);
+  stroke(255, 100);
 }
 
 function draw() {
-  background(51);
-  system.addParticle();
-  system.run();
+  background(242, 243, 235);
+  dragSegment(0, mouseX, mouseY);
+  for (let i = 0; i < x.length - 1; i++) {
+    dragSegment(i + 1, x[i], y[i]);
+  }
 }
 
-// A simple Particle class
-let Particle = function(position) {
-  this.acceleration = createVector(0, 0.05);
-  this.velocity = createVector(random(-1, 1), random(-1, 0));
-  this.position = position.copy();
-  this.lifespan = 255;
-};
+function dragSegment(i, xin, yin) {
+  const dx = xin - x[i];
+  const dy = yin - y[i];
+  const angle = atan2(dy, dx);
+  x[i] = xin - cos(angle) * segLength;
+  y[i] = yin - sin(angle) * segLength;
+  segment(x[i], y[i], angle);
+}
 
-Particle.prototype.run = function() {
-  this.update();
-  this.display();
-};
+function segment(x, y, a) {
+  push();
+  translate(x, y);
+  rotate(a);
+  stroke(245, 91, 63);
+  line(0, 0, segLength, 0);
+  pop();
+}
 
-// Method to update position
-Particle.prototype.update = function(){
-  this.velocity.add(this.acceleration);
-  this.position.add(this.velocity);
-  this.lifespan -= 2;
-};
+//if you are on a new page, the line of the color will change
+// function newColor(){
+//   if()
+// }
 
-// Method to display
-Particle.prototype.display = function() {
-  stroke(200, this.lifespan);
-  strokeWeight(2);
-  fill(127, this.lifespan);
-  ellipse(this.position.x, this.position.y, 12, 12);
-};
 
-// Is the particle still useful?
-Particle.prototype.isDead = function(){
-  return this.lifespan < 0;
-};
+//menu function
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("list");
+}
 
-let ParticleSystem = function(position) {
-  this.origin = position.copy();
-  this.particles = [];
-};
-
-ParticleSystem.prototype.addParticle = function() {
-  this.particles.push(new Particle(this.origin));
-};
-
-ParticleSystem.prototype.run = function() {
-  for (let i = this.particles.length-1; i >= 0; i--) {
-    let p = this.particles[i];
-    p.run();
-    if (p.isDead()) {
-      this.particles.splice(i, 1);
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.menu')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('list')) {
+        openDropdown.classList.remove('list');
+      }
     }
   }
-};
+}
