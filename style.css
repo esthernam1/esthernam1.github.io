@@ -6,8 +6,6 @@ html {
   box-sizing: inherit; */
 }
 body {
-/*  font-family: 'IBM Plex Mono', monospace;*/
-/*  font-weight: 500;*/
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -21,7 +19,7 @@ body {
   font-family: Helvetica, sans-serif;
   position: absolute;
   font-size: 65px;
-/*  text-decoration: underline;*/
+  text-decoration:none;
   left: 40px;
   top: 30px;
   color: black;
@@ -31,15 +29,14 @@ body {
   color: black;
   font-size: 65px;
   position: fixed;
-  text-decoration: none;
+  text-decoration: underline;
   left: 40px;
   top: 30px;
 }
 
 .heading a:hover{
-  font-size: 65px;
-  position: fixed;
-  text-decoration: underline;
+  color:white
+
 }
 
 #bio{
@@ -50,16 +47,31 @@ body {
   left: 40px;
   top: 130px;
   color: black;
+}
 
+#bio a{
+  color: black;
+  font-size: 55px;
+}
+#bio a:hover{
+  color: white;
+  cursor: url("img/blackCircle.png"), auto;
 }
 
 .description{
   color: black;
 }
 
+.contact{
+color: black;
+}
+.contact:hover{
+  
+}
+
 .menu{ 
   position:fixed;
-  font-size: 65px;
+  font-size: 90px;
   font-weight: bold;
   background-color:transparent;
   border: none;
@@ -84,10 +96,18 @@ body {
   align-content: center;
   position: absolute;
   overflow: visible;
-  left: 53em;
-  top:3.5em;
-/*  margin: 0 1.5%;
-  width: 63%;*/
+  left: 60em;
+  top:3em;
+}
+.dropdown-content-work {
+  position: absolute;
+  display: none;
+  width: 100rem;
+  align-content: center;
+  position: absolute;
+  overflow: visible;
+  left: 50em;
+  top:3em;
 }
 
 .dropdown-content a{
@@ -103,8 +123,23 @@ body {
   color: black;
   box-shadow: -9px 5px ;
   border:1px solid;
+  padding: 8px 0px 10px 0px;
+}
+
+.dropdown-content-work a{
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  word-spacing: 60px;
+  text-decoration:none;
+  width: 140px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  box-shadow: -9px 5px ;
+  border:1px solid;
   padding: 5px 0px 5px 0px;
-  font-weight: bold;
 }
 
 .dropdown a:hover {
@@ -114,12 +149,12 @@ body {
   box-shadow: -9px 5px rgb(0,0,0);
   border:1px solid;
   border-color: black;
-  font-weight: bold;
+/*  font-weight: bold;*/
 }
 
 .list {
   display: inline-block;
-  word-spacing: 20px;
+  word-spacing: 40px;
 }
 
 .tooltip {
@@ -136,7 +171,7 @@ body {
   box-shadow: -9px 5px;
   border:1px solid;
   padding: 5px 0;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'IBM Plex Mono', monospace;
   text-align: center;
 
