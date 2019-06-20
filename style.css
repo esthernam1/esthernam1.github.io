@@ -96,8 +96,8 @@ color: black;
   align-content: center;
   position: absolute;
   overflow: visible;
-  left: 60em;
-  top:3em;
+  left: 72em;
+  top:2.8em;
 }
 .dropdown-content-work {
   position: absolute;
@@ -124,6 +124,22 @@ color: black;
   box-shadow: -9px 5px ;
   border:1px solid;
   padding: 8px 0px 10px 0px;
+}
+.dropdown-content-contact a{
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  word-spacing: 60px;
+  text-decoration:none;
+  width: 140px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  box-shadow: -9px 5px ;
+  border:1px solid;
+  padding: 8px 0px 10px 0px;
+  left: 300px;
 }
 
 .dropdown-content-work a{
@@ -180,10 +196,134 @@ color: black;
   z-index: 1;
 }
 
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.tooltip1 .tooltiptext1 {
+  visibility: hidden;
+  width: 190px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  box-shadow: -9px 5px;
+  border:1px solid;
+  padding: 5px 0;
+  font-size: 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+/*.workBox{
+  width: 190px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  color: black;
+  box-shadow: -9px 5px;
+  border:1px solid;
+  padding: 5px 0;
+  font-size: 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+}*/
+
+.image1{
+top:30%;
+left:15%;
+position: absolute;
+}
+
+/*.hoverinfo {
+  position: absolute;
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  color: black;
+}
+*/
+
+.hoverinfo p {
+  display: none;
+  color: #000000;
+
+}
+
+.hoverinfo:hover p {
+  width:225px;
+  height:225px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+  top:28%;
+  left:15%;
+  position: absolute;
+  font-size: 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+}
+
+
+
+/*----------------------------*/
+
+
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 800px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+.heading{
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  font-size: 40px;
+  text-decoration:none;
+  left: 45px;
+  top: 30px;
+  color: black;
+}
+
+.heading a{
+  color: black;
+  font-size: 45px;
+  position: fixed;
+  text-decoration: underline;
+  left: 40px;
+  top: 30px;
+}
+
+.heading a:hover{
+  color:white
+
+}
+
+#bio{
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  font-size: 40px;
+/*  text-decoration: underline;*/
+  left: 40px;
+  top: 130px;
+  color: black;
+}
+
+#bio a{
+  color: black;
+  font-size: 45px;
+}
+
+#bio a:hover{
+  color: white;
+  cursor: url("img/blackCircle.png"), auto;
+}
+
+}
+
+
 
 
   
