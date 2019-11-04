@@ -149,8 +149,8 @@ margin-right:55%;
   padding-top:3.5em;
 /* border:dotted blue 5px; */
 margin-right:25%;
-top:37.3em;
-left:20em;
+top:45em;
+left:35em;
 }
 
 .overview{
@@ -507,26 +507,26 @@ position: absolute;
   .audreyPhoto{
     position: absolute;
     padding-left:53em;
-    top:105vw;
+    top:112vw;
   }
   .trudyPhoto{
     position: absolute;
     padding-left:53em;
-    top:135vw;
+    top:145vw;
   }
   .calenPhoto{
     position: absolute;
     padding-left:53em;
-    top:165vw;
+    top:177vw;
   }
   .scarletPhoto{
     position: absolute;
     padding-left:53em;
-    top:195vw;
+    top:210vw;
   }  
   .jingPhoto{
     position: absolute;
     padding-left:53em;
-    top:225vw;
+    top:245vw;
   }
  
