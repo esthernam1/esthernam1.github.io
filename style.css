@@ -49,7 +49,7 @@ a:hover{
 }
 
 .wrap {
- border: 1px dotted red;
+ /* border: 1px dotted red; */
  max-width: 1500px;
  margin: 0 auto;
 }
