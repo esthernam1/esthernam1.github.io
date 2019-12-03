@@ -48,11 +48,11 @@ a:hover{
   text-shadow: 0 0 8px rgba(0,0,0,0.9);
 }
 
-/* .wrap {
+.wrap {
  border: 1px dotted red;
- max-width: 1200px;
+ max-width: 1500px;
  margin: 0 auto;
-} */
+}
 
 
 .frontName{
@@ -175,6 +175,7 @@ margin-right:55%;
 .photo1{
   text-align: center;
   padding-bottom: 3em;
+
 }
 
 .questions{
@@ -206,10 +207,26 @@ margin-right:55%;
     font-size: 20px;
     line-height: 160%;
 }
+#wrapper3{
+    display: flex;
+    /* border:dotted red 4px; */
+    margin:0 2em 0 0em;
+    font-family: "Inter-Regular";
+    font-size: 20px;
+    line-height: 160%;
+}
 
 #left {
   flex: 0 0 45%;
   font-family: "Inter-Regular";
+}
+#left2 {
+  flex: 0 0 100%;
+  font-family: "Inter-Regular";
+  margin-right: -30em;
+  margin-left:-10em;
+  padding-left:10em;
+  /* border:dotted blue 4px; */
 }
 
 #right {
@@ -220,7 +237,7 @@ margin-right:55%;
 #right2 {
   flex: 1;
   font-family: "Inter-Regular";
-
+  /* border:solid orange 4px; */
 }
 
 #goals{
@@ -398,33 +415,13 @@ left: 47em;
   .point{
     font-size: 70px;
     position: relative;
-    left:-2.7em;
-    top:1em;
  display:inline;
   }
   .point2{
     font-size: 70px;
     position: relative;
-    left:2.3em;
-    top:1em;
     display: inline;
   }
-
-  .photo11{
-    position: relative;
-     left: -3em;
-    top:22em;
-     display: inline;
-     margin-bottom:50em;
-      }
-    
-      .photo12{
-        position: relative;
-        left: 22em;
-        top:5.7em;
-        margin-bottom:50em;
-        display: inline;
-      }
 
       #empty{
         height:10em;
