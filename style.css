@@ -23,6 +23,7 @@
 html{
   width:100%;
   margin:0;
+  cursor: url('img/blueDot.png'), auto;	
 }
 
 .main{
@@ -40,6 +41,7 @@ html{
 a{
   color:black;
   text-decoration: none;
+  cursor: url('img/blueDot.png'), auto;	
 }
 a:hover{
   color: transparent;
@@ -91,6 +93,7 @@ a:hover{
   font-size: 40px;
   padding-left:3em;
   padding-top: 2em;
+  cursor: url('img/blueDot.png'), auto;	
 }
 
 .aboutMe{
@@ -100,6 +103,7 @@ a:hover{
   padding-top:1em;
   padding:0 450px 0px 120px;
   line-height: 2em;
+  cursor: url('img/blueDot.png'), auto;	
 }
 .heading{
   font-family: "Inter-Regular";
@@ -662,7 +666,7 @@ position: absolute;
     margin:1em 0 .5em 2em;
   }
 
-
+/* 
   .alabama:hover {
     cursor: url(img/alabama.png), auto;
   }
@@ -675,7 +679,7 @@ position: absolute;
   }
   .cooking:hover {
     cursor: url(img/cooking.png), auto;
-  }
+  } */
 
   .work1:hover{
     cursor: url(img/tallCursor.png), auto;
