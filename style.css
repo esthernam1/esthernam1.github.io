@@ -54,16 +54,21 @@ a:hover{
  margin: 0 auto;
 }
 
+U{
+  color:white;
+  background-color: black;
+  padding: 0 5px 0 5px;
+}
 
 .frontName{
-  font-family: "Inter-Medium";
+  font-family: "GTAmerica-Regular";
   font-size: 7em;
   padding-left:1em;
   padding-top:1em;
 }
 
 .bio{
-  font-family: "Inter-Regular";
+  font-family: "GTAmerica-Regular";
   font-size: 35px;
   padding: 0px 450px 0px 120px;
   margin-top:90px;
@@ -75,21 +80,21 @@ a:hover{
 }
 
 #projects{
-  font-family: "Inter-Medium";
+  font-family: "GTAmerica-Regular";
   font-size: 40px;
   padding-left:3em;
   padding-top: 6em;
 }
 
 #works{
-  font-family: "Inter-Regular";
+  font-family: "GTAmerica-Regular";
   font-size: 25px;
   padding-left:4.8em;
   padding-top:1em;
   line-height: 3em;
 }
 .About{
-  font-family: "Inter-Medium";
+  font-family: "GTAmerica-Regular";
   font-size: 40px;
   padding-left:3em;
   padding-top: 2em;
@@ -97,7 +102,7 @@ a:hover{
 }
 
 .aboutMe{
-  font-family: "Inter-Regular";
+  font-family: "GTAmerica-Regular";
   font-size: 25px;
   padding-left:4.8em;
   padding-top:1em;
