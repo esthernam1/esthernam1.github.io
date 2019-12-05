@@ -54,11 +54,6 @@ a:hover{
  margin: 0 auto;
 }
 
-U{
-  color:white;
-  background-color: black;
-  padding: 0 5px 0 5px;
-}
 
 .frontName{
   font-family: "GTAmerica-Regular";
@@ -683,7 +678,7 @@ position: absolute;
     cursor: url(img/cooking.png), auto;
   } */
 
-  .work1:hover{
+  /* .work1:hover{
     cursor: url(img/tallCursor.png), auto;
   }
   .work2:hover{
@@ -697,7 +692,7 @@ position: absolute;
   }
   .work5:hover{
     cursor: url(img/finalThingCursor.png), auto;
-  }
+  } */
 
   .imgs{
     display: inline-block;
