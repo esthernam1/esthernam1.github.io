@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+@font-face {
+  src:url("Inter-Regular.woff");
+  font-family: "Inter-Regular";
+}
+@font-face {
+  src:url("Inter-Medium.woff");
+  font-family: "Inter-Medium";
+}
+@font-face {
+  src:url("GT-Sectra-Display-Trial-Light.otf");
+  font-family: "GT-Sectra-Display-Trial-Light";
+}
+
+@font-face {
+  src:url("GT-Sectra-Trial-Book.otf");
+  font-family: "GT-Sectra-Trial-Book";
+}
+
+@font-face {
+  src:url("GT-Sectra-Trial-Regular.otf");
+  font-family: "GT-Sectra-Trial-Regular";
+}
+
+html{
+  margin:0;
+  height:100%;
+  padding:0;
+  font-family: "Inter-Regular";
+}
+#box{
+  /* border:red solid 4px; */
+  margin:2em;
+}
+
+.heading{
+  font-family: "Inter-Regular";
+  font-size:55px;
+  margin-right: 45%;
+ }
+
+ a{
+   color:black;
+   text-decoration: none;
+ }
+ /* a:hover{
+filter:blur(4px);
+ } */
+
+ div.recent a:link{
+   color: black;
+   text-decoration: none;
+   display:inline-block;
+
+ }
+ div.recent a:hover{
+   background-color:black;
+   color:white;
+  width:100%;
+  border-radius: 50px;
+}
+
+
+.space{
+  /* border: pink 5px solid; */
+  height:6.5em;
+}
+.space2{
+  /* border: pink 5px solid; */
+  height:4em;
+}
+
+.wrapper {
+  border-top: 2px solid black;
+  background-color: white;
+  box-sizing: border-box;
+  margin-top:3em;
+  width:95%;
+  display:inline-block;
+}
+
+
+/* img{
+  width:40px;
+  display: inline-block;
+  /* border: green 4px solid; */
+/* } */
+
+.red{
+  position:relative;
+  float: right;
+}
+.recent{
+  font-size:40px;
+  border: black 1px solid; 
+  border-radius: 50px;
+  width:18%;
+  text-align: center;
+  display:inline-block;
+}
+
+#wrap{
+text-align: left;
+font-family: "Inter-Regular";
+font-size: 30px;
+/* border: orange 4px solid; */
+width:52%;
+float:right;
+/* margin:2em; */
+margin-right:6em;
+}
+
+#bigWrap{
+  text-align: left;
+  font-family: "Inter-Regular";
+  font-size:35px;
+  /* border: orange 4px solid; */
+  width:auto;
+  float:left;
+  margin-top:3em;
+  margin-left:1em;
+  }
+
+p.about{
+  font-size:55px;
+  width:95%;
+  line-height: 135%;
+  font-family: "GT-Sectra-Trial-Book";
+}
+
+ul{
+  list-style-type: none;
+  padding:0;
+  font-size:22px;
+}
+
+.contact{
+  /* margin:2em; */
+  /* border: palegreen 4px solid; */
+  display: inline-block;
+  /* width:35%;
+  height:100em; */
+}
+
+#boxInfo{
+  /* border:red solid 4px; */
+  margin:2em;
+}
+
+p.play{
+  width:45%;
+  float:left;
+  font-size:22px;
+  /* border: palevioletred 4px solid;  */
+}
+
+.wrapPlay{
+  text-align: left;
+  font-family: "Helvetica Neue";
+  font-size: 65px;
+  /* border: orange 4px solid; */
+  margin-top:1.5em;
+  overflow:hidden;
+  width:50%;
+  height:auto;
+  position: fixed;
+}
+
+.holder {
+  margin-top:7em;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  gap: 15%;
+  /* border: 5px solid blue; */
+}
+
+.holder > div {
+  position: relative;
+  height:70%;
+  /* border: 5px solid pink; */
+  /* padding: 1em; */
+  color: black;
+}
+
+
+p{
+  font-size:25px;
+  width:45%;
+  /* border: palevioletred 4px solid; */
+}
+
+i{
+  font-size:20px;
+}
+.projectWrap{
+  /* border: red 4px solid; */
+  width: fit-content;
+  height: fit-content;
+}
+
+/* size of the experiemental gifs */
+.imageWrap{
+  float: left;
+  /* border:3px green dotted; */
+  width: 400px;
+  height:300px; 
+}
+
+.gap{
+  width: 2em;
+}
+
+.details{
+  color:grey;
+  /* border:3px orange solid; */
+  width:100%;
+  font-size:20px;
+}
+
+span.num{
+  text-align: left;
+  font-size:20px;
+  padding-left:.5em;
+}
+
+span.caption{
+  text-align: right;
+  /* border:3px green dotted; */
+  font-size:20px;
+  float:right;
+  padding-right:.5em;
+}
+
+/* img{
+  height: 50%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+} */ 
+
+#experiments{
+  /* border:3px purple solid; */
+  height: max-content;
+  overflow:hidden;
+  margin-left:2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title{
+  font-size: 60px;
+  padding-bottom:.3em;
+  font-family: "Helvetica Neue";
+}
+
+.bg{
+  /* background:url(img/planet.png); */
+	width: 99vw;
+  position: relative;
+  /* left: 50%;
+  right: 50%; */
+	top: 26em;
+  margin-left: -90vw;
+  margin-right: -20vw;
+}
+
+/* size of the cover gifs in index*/
+.cover{ 
+  width: 400px;
+  height:225px; 
+}
+
+#hug{
+  /* border:7px red dotted; */
+  margin-left:10em;
+  width:80%;
+  padding-bottom:14%;
+}
+
+.description{
+  font-size: 24px;
+  /* border:3px blue dotted; */
+  width:52%;
+  display: inline-block;
+  line-height: 41px;
+  font-family: "Helvetica";
+}
+
+#timeline{
+  /* border:7px palegreen solid; */
+  font-family: "Helvetica";
+  display: inline-block;
+  float:right;
+  width:35%;
+  padding:none;
+  margin:none;
+  font-size: 18px;
+}
+
+.stretch{
+  height:32em;
+  width:auto;
+}
+
+p.mini{
+  font-size: 18px;
+  color:#B0B0B0;
+  /* border: orange 4px solid; */
+  width:50%;
+  margin:0;
+}
+
+.example{
+  width:auto;
+  height:340px;
+}
+
+#storage{
+display:inline-block;
+margin-left:10%;
+}
+
+span.esther{
+  border:1px black solid;
+  padding-left:2px;
+  position: fixed;
+  background:white;
+  color:black;
+  z-index: 1;
+  font-family: "GT-Sectra-Trial-Book";
+  font-size:55px;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  border:none;
+}
+
+::-webkit-scrollbar-track {
+  border:black 1px solid;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+span.more:hover{
+  color:#B0CF15;
+}
+
+#storage{
+  /* border: pink dotted 4px; */
+  width:90%;
+  margin-left:3%;
+}
+
+#intervention{
+  /* border: orange solid 4px; */
+  font-size:40px;
+  font-family: "Helvetica";
+  text-align: left;
+}
+
+hr{
+  border: .7px solid black;
+}
+
+.chinatown{
+  /* border: orange solid 4px;  */
+  width:45%;
+  float:right;
+  padding-top:30px;
+  font-size:22px;
+  line-height: 30px;
+  font-family: "Helvetica";
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.left{
+  /* border: green solid 3px; */
+  width:45%;
+  float:left;
+  font-size:22px;
+  line-height: 30px;
+  font-family: "Helvetica";
+  padding-top:30px;
+}
