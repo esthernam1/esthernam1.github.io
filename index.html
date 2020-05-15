@@ -10,7 +10,24 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="shortcut icon" href="img/redCircle.gif" type="image/x-icon">
 			<link href = "style.css" rel = "stylesheet">
-			<script src="script.js"></script>
+			<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			<script>
+				$(function(){
+					$("#visible").click(function(){
+						$('#invisible').toggleClass("show");
+						$('#invisible2').toggleClass("show");
+						
+					});
+				});
+			</script>
+
+			<style>
+				.hide{display:none;}
+				.show{display:block;}
+				#invisible{font-size:25px; font-family:"Helvetica Neue"; font-weight: 350; line-height: 1.6;}
+				#invisible2{font-size:25px; font-family:"Helvetica Neue"; font-weight: 350; line-height: 1.6;}
+			</style>
 		</head>	
 		<body>
 
@@ -18,8 +35,23 @@
 		<!-- <div class = "heading">Esther Nam </div> -->
 	
 		<p class= "about"><span class = "esther">Esther Nam</span> Esther Nam is a multidisciplinary designer and creative technologist with a passion for  visual identity systems and the impacts of interaction.
-				She's currently studying Design and Technology at Parsons School of Design in New York. <span class = "more">(+ more)</span>
+				She's currently studying Design and Technology at Parsons School of Design in New York. 
 
+				<span id = "visible">[+ more]</span>
+				<br><br>
+				<span id = "invisible" class = "hide"><span class = "begin">Previously</span><br>
+				[ 2020 ] User Experience Designer at <u><a href = "https://www.ibm.com/design/">IBM CIO Design</a></u>, Research Triangle Park, NC
+				<br>
+				[ 2019 ] Junior Designer at  <u><a href = "https://www.scholastic.com/home/">Scholastic</a></u>, New York, NY
+				<br>
+				[ 2018 ] Design Intern at <u><a href = "https://www.ovee.me/">Ovee Health</a></u>, Brooklyn, NY</span>
+				<br>
+
+				<span id = "invisible2" class = "hide"><span class = "begin">Education</span><br> 
+				[ 2017-2021 ] <br>
+				<u><a href = "https://www.newschool.edu/parsons/bfa-design-technology/">Parsons School of Design</a></u>, New York, NY
+				<br>BFA Design and Technology
+				</span>
 			</p>
 			
 				<!-- 	Her past experiences include interning at <a href = "https://www.ibm.com/case-studies/case-studiesibm-cio-office">IBM CIO</a>, 
@@ -27,7 +59,7 @@
 				 
 
 		
-				 <div class = "space"></div>
+				 
 				 <div class = "space"></div>
 				 <div class = "recent"><a href = "play.html">Playground</a></div>
 				 <br> <br>
@@ -118,13 +150,13 @@
 
 			<div class = "projectWrap">
 				<div class = "image-wrapper ">
-				<img src="img/TMD.gif" loop=infinite class = "cover"></img>
+					<a href = "hack.html"><img src="img/TMD.gif" loop=infinite class = "cover"></img></a>
 				</div>
 			<br>
 			<div class = "details">
 				<span class  = "num">6</span>	
 				<span class  = "caption">
-					VRTogether, Web VR
+					TMD Hackathon, Web VR
 					<br>2020
 				</span>
 			</div>
