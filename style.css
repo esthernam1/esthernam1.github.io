@@ -105,7 +105,7 @@ span.begin{
 }
 .recent{
   font-size:40px;
-  border: black 1px solid; 
+  border: black 1.3px solid; 
   /* border-radius: 50px; */
   width:18%;
   text-align: center;
@@ -138,7 +138,9 @@ p.about{
   font-size:55px;
   width:95%;
   line-height: 135%;
+  font-weight: lighter;
   font-family: "GT-Sectra-Trial-Book";
+  /* border: orange 4px solid; */
 }
 
 ul{
@@ -265,7 +267,7 @@ span.caption{
   /* padding: 10px; */
   padding:none;
   margin:none;
-  border: orange 3px dotted;
+  /* border: orange 3px dotted; */
 }
 
 .column img {
@@ -354,8 +356,8 @@ margin-left:10%;
 }
 
 span.esther{
-  border:1px black solid;
-  padding-left:2px;
+  border:1.3px black solid;
+  padding-left:4px;
   position: fixed;
   background:white;
   color:black;
