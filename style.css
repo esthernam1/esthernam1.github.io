@@ -251,13 +251,33 @@ span.caption{
   background-size: cover;
 } */ 
 
-#experiments{
+/* #experiments{ */
   /* border:3px purple solid; */
-  height: max-content;
-  overflow:hidden;
-  margin-left:2em;
+  /* height: max-content; */
+  /* overflow:hidden; */
+  /* margin-left:2em;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+/* } */
+
+.column {
+  width: 50%;
+  /* padding: 10px; */
+  padding:none;
+  margin:none;
+  border: orange 3px dotted;
+}
+
+.column img {
+  margin-top: 12px;
+  padding-left:4%;
+}
+
+/* Clear floats after the columns */
+.string:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .title{
@@ -414,4 +434,27 @@ hr{
   line-height: 30px;
   font-family: "Helvetica";
   padding-top:30px;
+}
+#photos {
+  /* Prevent vertical gaps */
+
+  -webkit-column-count: 4;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    4;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           10px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding:5%;
+}
+#photos video {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding:5%;
 }
