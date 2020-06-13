@@ -23,6 +23,42 @@
   font-family: "GT-Sectra-Trial-Regular";
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .holder {    
+    margin-top:7em;
+    float: none;
+    width: 100%;
+    grid-template-columns: 5px 5px 5px;
+    flex-direction: column;
+    flex: 100%;
+    width:100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .holder {  
+    margin-top:7em;
+    float: none;
+    width: 100%;
+    grid-template-columns: 50px 50px 50px;
+    flex-direction: column;
+    flex: 50%;
+    width:50%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .holder {    margin-top:7em;
+    float: none;
+    width: 100%;
+    grid-template-columns: 250px 250px 250px;
+    flex-direction: column;
+  }
+} 
+
 html{
   margin:0;
   height:100%;
@@ -135,11 +171,14 @@ margin-right:6em;
   }
 
 p.about{
-  font-size:55px;
+  font-size:50px;
   width:95%;
   line-height: 135%;
-  font-weight: lighter;
-  font-family: "GT-Sectra-Trial-Book";
+  /* font-weight: lighter; */
+  /* font-family: "GT-Sectra-Trial-Book"; */
+  font-family: "Inter-Regular";
+  word-break: break-word;
+  /* font-family: Helvetica; */
   /* border: orange 4px solid; */
 }
 
@@ -186,7 +225,7 @@ p.play{
   display: grid;
   grid-template-columns: 250px 250px 250px;
   gap: 15%;
-  /* border: 5px solid blue; */
+  border: 5px solid blue;
 }
 
 .holder > div {
@@ -194,7 +233,6 @@ p.play{
   height:70%;
   /* border: 5px solid pink; */
   /* padding: 1em; */
-  color: black;
 }
 
 
@@ -209,8 +247,6 @@ i{
 }
 .projectWrap{
   /* border: red 4px solid; */
-  width: fit-content;
-  height: fit-content;
 }
 
 /* size of the experiemental gifs */
@@ -253,15 +289,6 @@ span.caption{
   background-size: cover;
 } */ 
 
-/* #experiments{ */
-  /* border:3px purple solid; */
-  /* height: max-content; */
-  /* overflow:hidden; */
-  /* margin-left:2em;
-  display: flex;
-  flex-wrap: wrap; */
-/* } */
-
 .column {
   width: 50%;
   /* padding: 10px; */
@@ -290,19 +317,19 @@ span.caption{
 
 .bg{
   /* background:url(img/planet.png); */
-	width: 99vw;
+  width: 99vw;
+  max-width:100%;
   position: relative;
   /* left: 50%;
   right: 50%; */
-	top: 26em;
-  margin-left: -90vw;
-  margin-right: -20vw;
+	/* top: 26em; */
+  /* margin-left: -90vw;
+  margin-right: -20vw; */
 }
 
 /* size of the cover gifs in index*/
 .cover{ 
-  width: 400px;
-  height:225px; 
+  width: 150%;
 }
 
 #hug{
@@ -333,7 +360,7 @@ span.caption{
 }
 
 .stretch{
-  height:32em;
+  height:8em;
   width:auto;
 }
 
@@ -362,8 +389,52 @@ span.esther{
   background:white;
   color:black;
   z-index: 1;
-  font-family: "GT-Sectra-Trial-Book";
-  font-size:55px;
+  /* font-family: "GT-Sectra-Trial-Book"; */
+  font-family: "Inter-Regular";
+  font-size:50px;
+}
+
+@media screen and (min-width: 700px) {
+  span.esther{
+    font-size: 50px;
+  }
+  div.recent{
+    font-size: 40px;
+    max-width:20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  span.esther {
+    font-size: 20px;
+  }
+  p.about{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  span.esther {
+    font-size: 35px;
+  }
+  p.about{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span#invisible {
+    font-size: 19px;
+  }
+  span#invisible2 {
+    font-size: 19px;
+  }
+}
+ @media screen and (max-width: 1250px) {
+  div.recent{
+  font-size: 30px;
+  margin-top:.5em;
+  width:100%;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -411,18 +482,6 @@ hr{
   font-family: "Helvetica";
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 * {
   box-sizing: border-box;
@@ -437,27 +496,85 @@ hr{
   font-family: "Helvetica";
   padding-top:30px;
 }
-#photos {
-  /* Prevent vertical gaps */
 
-  -webkit-column-count: 4;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    4;
-  -moz-column-gap:      0px;
-  column-count:         3;
-  column-gap:           10px;  
+.experiments{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
 }
 
-#photos img {
+.photos {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.photos img {
+  /* Just in case there are inline attributes */
+  margin-top: 8px;
+  padding:15px;
+  vertical-align: middle;
+}
+.photos video {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
   padding:5%;
 }
-#photos video {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  padding:5%;
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photos {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .photos {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-title {
+  position: relative;
+  font-size: 21px;
+  font-family: Arial;
+  color:grey;
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+  padding-top: 18px;
+}
+
+section.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 100px;
+  margin-top:50px;
+  /* border: pink 3px solid; */
+  padding:20px;
+
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+u{
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
