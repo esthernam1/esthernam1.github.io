@@ -119,6 +119,11 @@ span.begin{
   height:4em;
 }
 
+p.work{
+  font-size: 40px;
+  width:100%;
+}
+
 .wrapper {
   border-top: 2px solid black;
   background-color: white;
@@ -199,25 +204,6 @@ ul{
 #boxInfo{
   /* border:red solid 4px; */
   margin:2em;
-}
-
-p.play{
-  width:45%;
-  float:left;
-  font-size:22px;
-  /* border: palevioletred 4px solid;  */
-}
-
-.wrapPlay{
-  text-align: left;
-  font-family: "Helvetica Neue";
-  font-size: 65px;
-  /* border: orange 4px solid; */
-  margin-top:1.5em;
-  overflow:hidden;
-  width:50%;
-  height:auto;
-  position: fixed;
 }
 
 .holder {
