@@ -276,7 +276,7 @@ span.caption{
 } */ 
 
 .column {
-  width: 50%;
+  /* width: 50%; */
   /* padding: 10px; */
   padding:none;
   margin:none;
@@ -437,7 +437,7 @@ span.esther{
 }
 
 span#visible:hover{
-  color:#F5C709;
+  color:#324EFE;
   cursor:crosshair;
 }
 
