@@ -120,7 +120,7 @@ span.begin{
 }
 
 p.work{
-  font-size: 40px;
+  font-size: 20px;
   width:100%;
 }
 
@@ -308,7 +308,7 @@ span.caption{
   position: relative;
   /* left: 50%;
   right: 50%; */
-	/* top: 26em; */
+  /* top: 26em; */
   /* margin-left: -90vw;
   margin-right: -20vw; */
 }
@@ -564,3 +564,5 @@ u{
   text-decoration: none;
   border-bottom: 1px solid black;
 }
+
+
