@@ -437,7 +437,8 @@ span.esther{
 }
 
 span#visible:hover{
-  color:#324EFE;
+  /* color:#7D0CF4; */
+  color: #F5C205;
   cursor:crosshair;
 }
 
@@ -537,7 +538,7 @@ article {
 
 .article-title {
   position: relative;
-  font-size: 21px;
+  font-size: 19px;
   font-family: Arial;
   color:grey;
   font-weight: 500;
